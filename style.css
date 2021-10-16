@@ -173,7 +173,7 @@ i:hover {
     padding-left: 0;
   }
 }
-@media screen and (max-width: 290px) {
+@media screen and (max-width: 390px) {
   footer {
     display: none;
   }
