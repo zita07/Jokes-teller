@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joke Teller</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+    />
+    <link rel="icon" type="image/png" href="favicon.jpg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+  
+    <h1 class="header-text">Joke Teller Robot</h1>
+    <div id="container">
+      <button id="tellJokeButton">Tell me a joke</button>
+      <button id="repeatLastJoke" disabled>Repeat the last joke</button>
+      <audio src="" id="jokeAudio" controls hidden></audio>
+      <!-- show the joke -->
+      <input id="collapsible" class="toggle" type="checkbox" />
+      <label for="collapsible" class="lbl-toggle">Show the joke</label>
+      <div class="collapsible-content">
+        <div class="content-inner">
+          <p id="textJoke"></p>
+        </div>
+      </div>
+    </div>
+    <!-- start footer -->
+    <footer>
+      <h6>&copy; Hicham BQ 2021 | Made with Voice RSS API and Joke API</h6>
+      <!-- Social media icons -->
+      <div class="social-media">
+        <ul class="social-media__icon">
+          <a
+            href="https://www.facebook.com/hichambq7"
+            target="_blank"
+            class="icon-link"
+          >
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="https://github.com/zita07" target="_blank" class="icon-link">
+            <i class="fab fa-github" aria-hidden="true"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/hicham-bourziq-755ab0136/"
+            target="_blank"
+            class="icon-link"
+          >
+            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </ul>
+      </div>
+    </footer>
+    <!-- end footer -->
+    <!-- Script -->
+    <script src="voice.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
