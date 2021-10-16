@@ -177,6 +177,9 @@ i:hover {
    body h1.header-text {
     display: none;
   }
+  body #container {
+     margin-top: 2.57rem;
+  }
   footer {
     display: none;
   }
