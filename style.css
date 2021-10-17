@@ -173,12 +173,11 @@ i:hover {
     padding-left: 0;
   }
 }
-@media screen and (max-width: 390px) {
+/*@media screen and (max-width: 390px) {
    body h1.header-text {
     display: none;
   }
   footer {
     display: none;
   }
-}
-
+}*/
