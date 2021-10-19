@@ -130,39 +130,12 @@ input[type="checkbox"] {
 .collapsible-content p {
   margin-bottom: 0;
 }
-/*end*/
-/*footer style*/
-/*start*/
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  color: rgba(0, 0, 0, 0.897);
-}
-.social-media {
-  margin: 0 20px 10px 0;
-}
-h6 {
-  margin-left: 10px;
-}
-a {
-  text-decoration: none;
-}
-i {
-  color: rgba(0, 0, 0, 0.829);
-  transition: all 0.5s;
-  font-size: 1.5rem;
+footer{
+  color: gray;
+  text-align: center;
+  text-shadow: 5px 20px 10px white;
 }
 
-i:hover {
-  transform: scale(1.1);
-  color: rgba(87, 97, 87, 0.863);
-}
-/*end*/
 @media screen and (max-width: 1000px) {
   body #container {
     background-size: cover;
@@ -173,11 +146,3 @@ i:hover {
     padding-left: 0;
   }
 }
-/*@media screen and (max-width: 390px) {
-   body h1.header-text {
-    display: none;
-  }
-  footer {
-    display: none;
-  }
-}*/
